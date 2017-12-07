@@ -24,7 +24,7 @@ Operating System: Windows, iOS
   
 •	The project mainly aims to dispatch a emergency vehicle to the desired location inserted.   
 
-•	The vehicle types given are 1. Ambulance 2. Fire Truck and 3. Police Car.   
+•	The vehicle types given are 1. Ambulance(A) 2. Fire Truck(F)and 3. Police Car(P)  
 
 •	For the input like Vehicle ID, Vehicle Type and the Distance between the zip codes are manually inserted and are stored in JTables.   
 
