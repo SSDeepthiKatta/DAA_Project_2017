@@ -12,7 +12,7 @@ AKHILA KATTA
    
    **PROJECT APPROACH**   
    
-Emergency Vehicle Dispatch is the class project implemented under the guidance of          Dr. Kuhail to submit for the grading of the course CS 5592(Design Analysis and Algorithms).    
+Emergency Vehicle Dispatch is the class project implemented under the guidance of Dr.Kuhail to submit for the grading of the course CS 5592(Design Analysis and Algorithms).    
 
 Language Used: JAVA   
 
@@ -24,7 +24,7 @@ Operating System: Windows, iOS
   
 •	The project mainly aims to dispatch a emergency vehicle to the desired location inserted.   
 
-•	The vehicle types given are 1. Ambulance 2. Fire Truck and 3. Police Car.   
+•	The vehicle types given are 1. Ambulance(A) 2. Fire Truck(F)and 3. Police Car(P)  
 
 •	For the input like Vehicle ID, Vehicle Type and the Distance between the zip codes are manually inserted and are stored in JTables.   
 
@@ -45,6 +45,10 @@ Step 4. Availability Check
 Step 5. Dispatch Vehicle Allocation.    
 
 Wiki Page:  
-https://github.com/SSDeepthiKatta/DAA_Project_2017/wiki  
+https://github.com/SSDeepthiKatta/DAA_Project_2017/wiki    
+   
+Project Video:   
+https://github.com/SSDeepthiKatta/DAA_Project_2017/blob/master/Screenshots/final.webm   
+
 
 

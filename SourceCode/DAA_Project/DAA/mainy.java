@@ -1,5 +1,13 @@
 package DAA;
+<<<<<<< HEAD
 
+=======
+import java.io.FileReader;
+import java.io.IOException;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+>>>>>>> 9ac6042b2daf53b560b45f2c4a6e7036dc9ba87b
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -15,7 +23,11 @@ Vector originalTableModel;
 DocumentListener documentListener;
 
 
+<<<<<<< HEAD
 public mainy() {
+=======
+public mainy() throws IOException {
+>>>>>>> 9ac6042b2daf53b560b45f2c4a6e7036dc9ba87b
     initComponents();
     setLocationRelativeTo(null);
     //backup of original values to check
@@ -50,7 +62,11 @@ private void addDocumentListener() {
 
 @SuppressWarnings("unchecked")
 // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+<<<<<<< HEAD
 private void initComponents() {
+=======
+private void initComponents() throws IOException {
+>>>>>>> 9ac6042b2daf53b560b45f2c4a6e7036dc9ba87b
 
     jScrollPane1 = new javax.swing.JScrollPane();
     table = new javax.swing.JTable();
@@ -72,8 +88,13 @@ private void initComponents() {
             "Title 1", "Title 2", "Title 3", "Title 4"
         }*/
     		new Object [][] {
+<<<<<<< HEAD
     			{"1","A","64151"},{"2","A","64151"},{"3","A","64151"},
     			{"4","F","64151"},{"5","P","64151"},{"6","P","64151"},
+=======
+    			{"1","0","64151"},{"2","0","64151"},{"3","0","64151"},
+    			{"4","0","64151"},{"5","0","64151"},{"6","0","64151"},
+>>>>>>> 9ac6042b2daf53b560b45f2c4a6e7036dc9ba87b
     			{"","",""},
     			{"7","A","64149"},
     			{"8","P","64149"},{"9","P","64149"},{"10","P","64149"},
@@ -115,14 +136,24 @@ private void initComponents() {
                 	System.out.println("Selected vehicle "+jTextField1.getText()+ " is available at "+ table.getValueAt(j, i));
             PrintWriter out = null ;
             try {
+<<<<<<< HEAD
                 out = new PrintWriter(new FileWriter("C:\\Users\\Pranathi Gopidi\\eclipse-workspace\\DAA\\src\\DAA\\output.txt",true),false);
                 } catch (IOException e) {
+=======
+                out = new PrintWriter(new FileWriter("C:\\Users\\SatyaSaiDeepthi\\workspace-DAA\\DAA_Project\\DAA\\output.txt",true),false);
+              
+            } catch (IOException e) {
+>>>>>>> 9ac6042b2daf53b560b45f2c4a6e7036dc9ba87b
                       e.printStackTrace();
                 }
             out.println(vxArr);
             out.close();
+<<<<<<< HEAD
             
             
+=======
+       
+>>>>>>> 9ac6042b2daf53b560b45f2c4a6e7036dc9ba87b
                 }
                 
             }
@@ -130,7 +161,10 @@ private void initComponents() {
     });
 
     
+<<<<<<< HEAD
     
+=======
+>>>>>>> 9ac6042b2daf53b560b45f2c4a6e7036dc9ba87b
     javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
     jPanel1.setLayout(jPanel1Layout);
     jPanel1Layout.setHorizontalGroup(
@@ -192,11 +226,19 @@ public void searchTableContents(String searchString) {
     }
     
 }
+<<<<<<< HEAD
 public static void run() {
     new mainy().setVisible(true);
 }
 
 public static void main(String args[]) {
+=======
+public static void run() throws IOException {
+    new mainy().setVisible(true);
+}
+
+public static void main(String args[]) throws IOException {
+>>>>>>> 9ac6042b2daf53b560b45f2c4a6e7036dc9ba87b
     /* Create and display the form */
     //java.awt.EventQueue.invokeLater(new Runnable() {
     run();    
@@ -211,4 +253,8 @@ private javax.swing.JButton searchButton;
 private javax.swing.JCheckBox searchOnType;
 private javax.swing.JTable table;
 // End of variables declaration                   
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9ac6042b2daf53b560b45f2c4a6e7036dc9ba87b
