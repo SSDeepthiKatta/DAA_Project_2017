@@ -12,7 +12,7 @@ AKHILA KATTA
    
    **PROJECT APPROACH**   
    
-Emergency Vehicle Dispatch is the class project implemented under the guidance of          Dr. Kuhail to submit for the grading of the course CS 5592(Design Analysis and Algorithms).    
+Emergency Vehicle Dispatch is the class project implemented under the guidance of Dr. Kuhail to submit for the grading of the course CS 5592(Design Analysis and Algorithms).    
 
 Language Used: JAVA   
 
