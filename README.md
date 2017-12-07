@@ -42,5 +42,9 @@ Step 1. Creating Tables.
 Step 2. Inserting the current zip code.     
 Step 3. Finding Shortest Paths.    
 Step 4. Availability Check    
-Step 5. Dispatch Vehicle Allocation.   
+Step 5. Dispatch Vehicle Allocation.    
+
+Wiki Page:  
+https://github.com/SSDeepthiKatta/DAA_Project_2017/wiki  
+
 
